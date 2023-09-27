@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/hekimlerimiz.css">
+  <link rel="stylesheet" href="css/header.css">
+  <title>Hekimlerimiz</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar-top-cont">
+      <nav class="navbar navbar-expand py-0">
+        <div class="container-fluid navbar-top ">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link header-a" aria-current="page" href="#"><i class="fa-solid fa-microscope  me-2"
+                    style="color: white;"></i> lab. Sonuçları</a>
+              </li>
+              <li class="nav-item margin-rl">
+                <a class="nav-link header-a info" href="#"><i class="fa-regular fa-envelope  me-2"
+                    style="color: white;"></i>info@batigoz.com</a>
+              </li>
+              <li class="nav-item margin-rl">
+                <a class="nav-link header-a"> <i class="fa-regular fa-clock  me-2" style="color: white;"></i>Randevu
+                  Al</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header-a"> <img src="img/canlı-destek.png" class="me-2" width="22px" height="22px">444
+                  23 24</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 social-div">
+              <li class="nav-item social-box">
+                <a class="nav-link" aria-current="page" href="#"><i class="fab fa-facebook-f"
+                    style="color:white"></i></a>
+              </li>
+              <li class="nav-item social-box">
+                <a class="nav-link" href="#"><i class="fab fa-instagram" style="color:white"></i></a>
+              </li>
+              <li class="nav-item social-box">
+                <a class="nav-link"> <i class="fab fa-twitter" style="color:white"></i></a>
+              </li>
+              <li class="nav-item social-box">
+                <a class="nav-link"> <i class="fab fa-linkedin-in" style="color:white"></i></a>
+              </li>
+              <li class="nav-item social-box">
+                <a class="nav-link"> <i class="fab fa-youtube" style="color:white"></i></a>
+              </li>
+              <li class="nav-item flag">
+                <a class="nav-link" data-bs-target="#languageModal" data-bs-toggle="modal"><img src="img/tr.png"
+                    alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- NAVBAR-BOTTOM -->
+    <div class="navbar-bottom-cont">
+      <nav class="navbar py-0">
+        <div class="container-fluid navbar-bottom px-md-3 px-sm-5 px-4 ">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.webp" alt="" height="35px"></a>
+          <ul class="navbar-nav-ul pt-1">
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="department.html">MERKEZLERİMİZ
+                <div class="container-fluid sube-div">
+                  <div class="row">
+                    <div class="col-3">
+                      <ul class="sube-ul">
+                        <li class="sub-item"><a href="departmentdetail.html"><img src="img/eyes.jpg" alt="">Çankaya -
+                            İzmir</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Manisa - Yunus Emre</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Azerbaycan - Bakü</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Balçova - İzmir</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Batman</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Hollanda - Rotterdam</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Şirinyer - İzmir</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Hatay - İskenderun</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Ukrayna - Kiev</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Altunizade - İstanbul</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Azerbaycan - Ahmetli</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/eyes.jpg" alt="">Romanya - Bükreş</a></li>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="tıbbibranslar.html">TIBBİ BRANŞLAR
+
+                <div class="container-fluid sube-div ">
+                  <div class="row">
+                    <div class="col-3">
+                      <ul class="sube-ul">
+                        <li class="sub-item"><a href="gözdetay.html"><img src="img/eyes.jpg" alt="">Göz Sağlığı ve
+                            Hastalıkları</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/cocuk.jpg" alt="">Çocuk Sağlığı ve
+                            Hastalıkları</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/gögüs.jpg" alt="">Göğüs Hastalıkları</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/kbb.jpg" alt="">Kulak Burun Bopaz(KBB)</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/üroloji.jpg" alt="">Üroloji</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/acil.jpg" alt="">Acil Servis</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/cildiye.jpg" alt="">Dermatoloji (Cildiye)</a>
+                        </li>
+                        <li class="sub-item"><a href="#"><img src="img/dahiliye.jpg" alt="">İç Hastalıkları
+                            (Dahiliye)</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/nöroloji.jpg" alt="">Nöroloji</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/anestezi.jpg" alt="">Anestezi ve Reanimasyon</a>
+                        </li>
+                        <li class="sub-item"><a href="#"><img src="img/gastro.jpg" alt="">Gastaroenteroloji</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/kadın.jpg" alt="">Kadın Hastalıkları ve Doğum</a>
+                        </li>
+                        <li class="sub-item"><a href="#"><img src="img/ortopedi.jpg" alt="">Ortopedi ve Travmatoloji</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <ul>
+                        <li class="sub-item"><a href="#"><img src="img/diyet.jpg" alt="">Beslenme ve Diyet</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/cerrahi.jpg" alt="">Genel Cerrahi</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/kardiyo.jpg" alt="">Kardiyoloji</a></li>
+                        <li class="sub-item"><a href="#"><img src="img/radyoloji.jpg" alt="">Tanısal Radyoloji</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="hekimlerimiz.html">HEKİMLERİMİZ</a>
+            </li>
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="saglikrehberi.html">SAĞLIK REHBERİ</a>
+            </li>
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="#">ANLAŞMALI KURUMLAR</a>
+            </li>
+            <li class="nav-item sub-bottom-item">
+              <a class="sub-link" href="#">KURUMSAL</a>
+            </li>
+            <li class="nav-item sub-bottom-item" href="#">
+              <a class="sub-link">SAĞLIK TURİZMİ</a>
+            </li>
+          </ul>
+
+          <div class="nav-bottom-buttons">
+            <a class="nav-search" data-bs-target="#searchModal" data-bs-toggle="modal"><i
+                class="fa-solid fa-magnifying-glass fa-lg  srch"></i></a>
+            <a class="nav-setting" data-bs-target="#settingModal" data-bs-toggle="modal"><i
+                class="fas fa-cogs stg"></i></a>
+            <button class="nav-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span href="">MENU</span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" style="height: 100vh !important;" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-body">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="row mmenu">
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="index.html">
+                      <div class="i-box">
+                        <i class="fa-solid fa-house fa-2xl mt-2"></i>
+                      </div>
+                      Anasayfa
+                    </a> </div>
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="department.html">
+                      <div class="i-box">
+                        <i class="fas fa-hospital fa-2xl mt-2"></i>
+                      </div>
+                      Merkezlerimiz
+                    </a> </div>
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="tıbbibranslar.html">
+                      <div class="i-box">
+                        <i class="fa fa-stethoscope fa-2xl mt-3"></i>
+                      </div>
+                      Tıbbi Branşlar
+                    </a> </div>
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="hekimlerimiz.html">
+                      <div class="i-box">
+                        <i class="fa fa-user-md fa-2xl mt-2"></i>
+                      </div>
+                      Hekimlerimiz
+                    </a> </div>
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="saglikrehberi.html">
+                      <div class="i-box-red">
+                        <i class="fa fa-heart fa-2xl mt-2" style="color: white;"></i>
+                      </div>
+                      Sağlık Rehberi
+                    </a> </div>
+                  <div class="col-md-6 col-xs-6 mmenu-content"> <a href="#">
+                      <div class="i-box">
+                        <i class="fa fa-list-ul fa-2xl mt-2"></i>
+                      </div>
+                      Anlaşmalı Kurumlar
+                    </a> </div>
+                  <div class="alt-content">
+                    <div class="col-md-4 col-xs-6 contact1">
+                      <a class="d-flex flex-column align-items-center justify-content-center pt-3" href="#"
+                        target="_blank">
+                        <img src="img/2.png">
+                        <p>Mail Gönder </p>
+                      </a>
+                    </div>
+                    <div class="col-md-4 col-xs-6 contact2">
+                      <a class="d-flex flex-column align-items-center justify-content-center pt-3" href="randevu.html">
+                        <img src="img/randevu.png">
+                        <p> Randevu Al </p>
+                      </a>
+                    </div>
+                    <div class="col-md-4  contact3">
+                      <a class="d-flex flex-column align-items-center justify-content-center pt-3" href="#">
+                        <img src="img/canlı-destek.png">
+                        <p> Çağrı merkezi</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langua">
+              <a class="nav-link langua-box" data-bs-target="#languageModal" data-bs-toggle="modal"><img
+                  src="img/tr.png" width="38px" height="38px" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- MODALS -->
+
+  <!---------- SEARCH MODAL ---------->
+  <div class="modal search-modal" id="searchModal" tabindex="-1" aria-labelledby="ModalLabel6" aria-hidden="true">
+    <div class="modal-box modal-box-search">
+      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span
+          class="fa-solid fa-xmark fa-xl mt-1"></span></button>
+      <div class="modal-dialog modal-dialog-search">
+        <div class="search-modal-form">
+          <form method="POST" action="/arama">
+            <div class="form-group grup">
+              <input class="form-control form-cntrl" name="arama" placeholder="Arama Kelimesi" type="text">
+              <input class="search-button srch-btn" type="submit" value="Ara">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---------- SETTING MODAL ---------->
+  <div class="modal setting-modal" id="settingModal" tabindex="-1" aria-labelledby="ModalLabel10" aria-hidden="true">
+    <div class="modal-box setting-box">
+      <button type="button" class="btn-x set-btn" data-bs-dismiss="modal" aria-label="Close"><i
+          class="fa-solid fa-x fa-lg"></i></button>
+      <div class="modal-dialog">
+        <div class="modal-content set-modal-content">
+          <div class="modal-body set">
+            <div class="row set-modal-box">
+              <div class="col-md-10 col-xs-10">
+                <div class="modal-text modal-text-setting">Parlak ışık hassasiyeti bulunan ve rahatsız olan
+                  ziyaretçilerimiz bu alandan </div>
+              </div>
+              <div class="col-md-2 col-xs-2">
+                <div class="switch">
+                  <input id="switch-1" type="checkbox" class="switch-input sunmode" onclick="thememode()">
+                  <label for="switch-1" class="switch-label">Switch</label>
+                </div>
+              </div>
+            </div>
+            <div class="row set-modal-box">
+              <div class="col-md-10 col-xs-10">
+                <div class="modal-text modal-text-setting">İçeriklerimizi görme ve okuma konusunda sorun yaşayan
+                  ziyaretçilerimiz bu alandan yazı boyutlarını büyüterek web sitemizi incelemeye devam edebilir.</div>
+              </div>
+              <div class="col-md-2 col-xs-2">
+                <div class="switch">
+                  <input id="switch-2" type="checkbox" class="switch-input" onclick="fontmode()">
+                  <label for="switch-2" class="switch-label">Switch</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---------- LANGUAGE MODAL ---------->
+  <div class="modal language-modal" id="languageModal" tabindex="-1" aria-labelledby="ModalLabel8" aria-hidden="true">
+    <div class="modal-box lang-box">
+      <button type="button" class="btn-x set-btn" data-bs-dismiss="modal" aria-label="Close"><i
+          class="fa-solid fa-x fa-lg"></i></button>
+      <div class="modal-dialog">
+        <div class="modal-content lang-modal-content">
+          <div class="modal-body lang-body">
+            <div class="row modal-box-lang">
+              <div class="sec-title text-center lang-title">
+                <h2 class="title pb-13">DİL SEÇİMİ</h2>
+                <div class="modal-text text-center pl-20 pr-20 lang-text">Aşağıda yer alan dillerden herhangi birini
+                  seçerek sitemizi <br> incelemeye o dilde devam edebilirsiniz.</div>
+                <div class="langs">
+                  <a id="change" class="nturl"><img src="img/tr-flag.png" alt="Türkçe"></a>
+                  <a id="change" class="nturl"><img src="img/en.png" alt="English"></a>
+                  <a id="change" class="nturl"><img src="img/azerbaycan.png" alt="Azerbaijani"></a>
+                  <a id="change" class="nturl"><img src="img/alm.png" alt="German"></a>
+                  <a id="change" class="nturl"><img src="img/hollanda.png" alt="Dutch"></a>
+                  <a id="change" class="nturl"><img src="img/bae.png" alt="Arabic"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+    <!-- ------------------------HEKİMLERİMİZ--------------------- -->
+    <!-- ÜST BAŞLIK -->
+    <div class="ustbaslik img3" style="background-image: url('img/background.webp');">
+      <div class="container-fluid container2">
+        <div class="m-ustbaslikyazilar filtered text-center pb-120 pt-75">
+          <h1 class="title-part"> Hekimlerimiz </h1>
+          <ul class="m-ust-title">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><i class="fa-solid fa-link" style="color: #ffffff;"></i></li>
+            <li>Hekimlerimiz</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------SEARCH--------------- -->
+    <div class="m-arama">
+      <div class="container-fluid container2">
+        <div class="m-anapart">
+          <form id="m-form">
+            <div class="row rs-vertical-middle">
+              <div class="col-lg-3 md-mb-20 xs-mb-0">
+                <div class="m-select-option">
+                  <select class="from-control mt-0" id="hospitals">
+                    <option value="0">Lütfen Şube Seçin...</option>
+                    <option value="7">Altunizade - İstanbul</option>
+                    <option value="23">Azerbaycan - Bakü</option>
+                    <option value="3">Balçova - İzmir</option>
+                    <option value="78">Batman</option>
+                    <option value="1">Çankaya - İzmir</option>
+                    <option value="10">Hatay - İskenderun</option>
+                    <option value="9">Manisa - Yunus Emre</option>
+                    <option value="8">Şirinyer - İzmir</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3 md-mb-20 xs-mb-0">
+                <div class="m-select-option">
+                  <select class="from-control mt-0" id="branches">
+                    <option value="0">Lütfen Branş Seçin...</option>
+                    <option value="27">Acil Servis</option>
+                    <option value="16">Anestezi ve Reanimasyon</option>
+                    <option value="22">Beslenme ve Diyet</option>
+                    <option value="11">Çocuk Sağlığı ve Hastalıkları</option>
+                    <option value="12">Dermatoloji (Cildiye)</option>
+                    <option value="17">Gastroenteroloji</option>
+                    <option value="23">Genel Cerrahi</option>
+                    <option value="18">Göğüs Hastalıkları</option>
+                    <option value="13">Göz Sağlığı ve Hastalıkları</option>
+                    <option value="15">İç Hastalıkları (Dahiliye)</option>
+                    <option value="14">Kadın Hastalıkları ve Doğum</option>
+                    <option value="19">Kardiyoloji</option>
+                    <option value="24">Kulak Burun Boğaz (KBB)</option>
+                    <option value="20">Nöroloji</option>
+                    <option value="25">Ortopedi ve Travmatoloji</option>
+                    <option value="26">Tanısal Radyoloji</option>
+                    <option value="21">Üroloji</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4 md-mb-20">
+                <input type="text" placeholder="İsme Göre Arama" id="name">
+              </div>
+              <div class="col-lg-2">
+                <input type="submit" name="search" value="DOKTOR BUL">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------SEARCH END--------------------- -->
+
+    <!-- --------------------------------------DOKTORLAR KISMI----------------------- -->
+    <div class="second-doctor-part pt-50 pb-50 md-pt-40 md-pb-40">
+      <div class="container-fluid container2">
+        <div class="row hekimler">
+          <!-- card-1 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="doktorayrinti.html">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/mehmet-söyler.jpeg" class="ms">
+                  <div class="normal-text text-center ms">
+                    <span class="kisi-adi">Op. Dr. Mehmet Söyler</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text"><b>ACI KAYBIMIZ</b><br>Kurucumuz ve Yönetim Kurulu Başkanımız Op. Dr. Mehmet
+                      SÖYLER'i kaybetmenin derin üzüntüsünü yaşıyoruz. Çok değerli büyüğümüze Allah'tan rahmet, ailesi,
+                      dostları ve sevenlerine baş sağlığı diliyoruz.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-2 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d35.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Op. Dr. Serkan Biliş</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">İstanbul Üniversitesi Tıp Fakültesi (1992) mezunu olan Op. Dr. Serkan Biliş,
+                      Özel Batıgöz Sağlık Grubu Çankaya - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak
+                      hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          
+          <!-- card-3 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d36.jpeg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Doç. Dr. Uğur Ünsal</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">GATA 1997 mezunu olan Doç. Dr. Uğur Ünsal, Özel Batıgöz Sağlık Grubu Çankaya -
+                      İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-4 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d37.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Prof. Dr. Erol Yıldırım</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Hacettepe Tıp Fakültesi (1971),GATA (1978) mezunu olan Prof. Dr. Erol Yıldırım,
+                      Özel Batıgöz Sağlık Grubu Balçova - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak
+                      hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-5 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d38.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Prof. Dr. Sinan EMRE</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Y. Lisans Tıp Doktoru Hacettepe Üniversitesi (İng) 1997 ,Doktora/S.Yeterlik/
+                      Tıpta Uzmanlık Göz Hastalıkları Ege Üniversitesi 2002 mezunu olan Prof. Dr. Sinan EMRE, Özel
+                      Batıgöz Sağlık Grubu Balçova - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak hizmet
+                      vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-6 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d40.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Prof. Dr. Ferda Çiftçi</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">İstanbul Üniversitesi Tıp Fakültesi (1983),GATA (1990),1997 GATA Doçent Dr.,
+                      2005-2016 Yeditepe Üniversitesi Tıp Fakültesi Profesör Dr. mezunu olan Prof. Dr. Ferda Çiftçi,
+                      Özel Batıgöz Sağlık Grubu Altunizade - İstanbul şubesinde Göz Sağlığı ve Hastalıkları Uzmanı
+                      olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-7 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d41.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Prof. Dr. Suphi Acar</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Ankara Üniversitesi Tıp Fakültesi-1976 mezunu olan Prof. Dr. Suphi Acar, Özel
+                      Batıgöz Sağlık Grubu Altunizade - İstanbul şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak
+                      hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-8 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d39.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Prof. Dr. Cem Güler</span>
+                    <h3 class="mbaslik">Üroloji</h3>
+                    <p class="team-text">Mehmet Akif Ersoy İ.-İZMİR Osmangazi İlkokulu-BURSA,Çelebi Mehmet
+                      Ortaokulu-BURSA ,Erkek Lisesi-BURSA,Lisans Tıp Fakültesi Ege Üniversitesi ,Y. Lisans Tıp Fakültesi
+                      Ege Üniversitesi,Tıpta Uzmanlık Üroloji Dokuz Eylül Üniversitesi mezunu olan Prof. Dr. Cem Güler,
+                      Özel Batıgöz Sağlık Grubu Balçova - İzmir şubesinde Üroloji Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-9 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d43.jpeg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Doç. Dr. Halil Genç</span>
+                    <h3 class="mbaslik">Gastroenteroloji</h3>
+                    <p class="team-text">GATA (1995),GATA (2003) mezunu olan Doç. Dr. Halil Genç, Özel Batıgöz Sağlık
+                      Grubu Balçova - İzmir şubesinde Gastroenteroloji Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-10 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d44.jpeg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Doç. Dr. Okan Toygar</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Ankara Üniversitesi Tıp Fakültesi,Marmara Üniversitesi Tıp Fakültesi mezunu
+                      olan Doç. Dr. Okan Toygar, Özel Batıgöz Sağlık Grubu Altunizade - İstanbul şubesinde Göz Sağlığı
+                      ve Hastalıkları Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-11 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d45.jpeg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Doç. Dr. Ercüment Bozkurt</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Ege Üniversitesi Tıp Fakültesi mezunu olan Doç. Dr. Ercüment Bozkurt, Özel
+                      Batıgöz Sağlık Grubu Altunizade - İstanbul şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak
+                      hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-12 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d42.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Doç. Dr. Alper Yazıcı</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">2003 yılında Hacettepe Üniversitesi Tıp Fakültesi mezunu olan Doç. Dr. Alper
+                      Yazıcı, Özel Batıgöz Sağlık Grubu Çankaya - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı
+                      olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-13 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d50.jpeg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Op. Dr. Ahmet Memiş</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Gata mezunu olan Op. Dr. Ahmet Memiş, Özel Batıgöz Sağlık Grubu Çankaya - İzmir
+                      şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-14 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d51.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Op. Dr. Ahmet Taşar</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Ege Üniversitesi Tıp Fakültesi (2001),İnönü Üniversitesi Tıp Fakültesi (2008)
+                      mezunu olan Op. Dr. Ahmet Taşar, Özel Batıgöz Sağlık Grubu Balçova - İzmir şubesinde Göz Sağlığı
+                      ve Hastalıkları Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-15 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d52.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Op. Dr. Ayhan Önal</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">1978 İzmir İnkılap İlkokulu,1985 İzmir Bornova Anadolu Lisesi,1991 Ege Üniv.
+                      Tıp Fak.,1996 DEÜTF Göz Hast. ABD mezunu olan Op. Dr. Ayhan Önal, Özel Batıgöz Sağlık Grubu
+                      Çankaya - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak hizmet vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- card-16 -->
+          <div class="col-lg-3 mb-15 col-md-6">
+            <a href="#">
+              <div class="m-item-diskisim">
+                <div class="m-item-ickisim">
+                  <img src="img/d53.jpg" class="">
+                  <div class="normal-text text-center ">
+                    <span class="kisi-adi">Op. Dr. Aziz Serkan Topaloğlu</span>
+                    <h3 class="mbaslik">Göz Sağlığı ve Hastalıkları</h3>
+                    <p class="team-text">Ege Üniversitesi Tıp Fakültesi mezunu olan Op. Dr. Aziz Serkan Topaloğlu, Özel
+                      Batıgöz Sağlık Grubu Çankaya - İzmir şubesinde Göz Sağlığı ve Hastalıkları Uzmanı olarak hizmet
+                      vermektedir.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- ------------FOOTER---------- -->
+  <footer>
+    <div class="container-fluid container2">
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <ul>
+            <p class="fbaslik textcolor">SİTE HARİTASI</p>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="index.html">Anasayfa</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="department.html">Merkezlerimiz</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="tıbbibranslar.html">Tıbbi Branşlar</a>
+            </li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="hekimlerimiz.html">Hekimlerimiz</a>
+            </li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="saglikrehberi.html">Sağlık Rehberi</a>
+            </li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Anlaşmalı Kurumlar</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-12">
+          <ul>
+            <p class="fbaslik textcolor">KURUMSAL</p>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Yönetim Kurulu Başkanı Mesajı</a>
+            </li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Hakkımızda</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Misyon Vizyon ve Değerlerimiz</a>
+            </li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Kapsam</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Çevre Politikası</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Entegre Yönetim Sistemi
+                Politikamız</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Bilgi Toplumu Hizmetleri</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-12">
+          <ul>
+            <p class="fbaslik textcolor">FAYDALI LİNKLER</p>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Randevu Al</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Çağrı Merkezi</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">WhatApp Destek</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">İletişim Formu</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Canlı Destek</a></li>
+            <li><i class="bi bi-record-circle"></i><a class="sitelinkleri" href="#">Mail Gönder</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-12">
+          <ul>
+            <p class="fbaslik textcolor">SOSYAL MEDYADA BİZ</p>
+            <p class="fsub textcolor">Bizimle ilgili tüm gelişmelerden haberdar olmak için E-Bülten'e kaydolabilir veya
+              bizi sosyal medyadan takip edebilirsiniz.</p>
+            <div class="btn-part mb-5">
+              <form>
+                <input class="m-mail" type="email" name="email" placeholder="E-Mail Adresiniz" required="">
+                <input class="m-submit" type="submit" value="➜">
+              </form>
+            </div>
+          </ul>
+
+          <div class="social-icon">
+            <ul>
+              <li> <a class="iconlink" target="_blank" href="https://www.facebook.com/bati.goz"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li> <a class="iconlink" target="_blank" href="https://www.instagram.com/batigozsaglikgrubu"><i
+                    class="fab fa-instagram"></i></a></li>
+              <li> <a class="iconlink" target="_blank" href="https://twitter.com/batigoz"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li> <a class="iconlink" target="_blank" href="https://tr.linkedin.com/company/batigoz"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li> <a class="iconlink" target="_blank"
+                  href="https://www.youtube.com/channel/UCKyIimqUA9MsTNnMRtnhvtg"><i
+                    class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- -------------SUB-FOOTER---------------------- -->
+  <div class="sub-footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copy-right-part text-center">
+            <p>© 2020 All Rights Reserved</p>
+            <p>Son Güncelleme : 06.02.2023 10:23</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <!-- owl carousel cdn 1 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+
+
+  <script src="js/script3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>
