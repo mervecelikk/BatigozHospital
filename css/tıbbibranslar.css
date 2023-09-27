@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0 auto;
+    line-height: 26px;
+    vertical-align: baseline;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #494949;
+    overflow-x: hidden;
+    top: 0 !important;
+}
+
+/* <!--------------------- IMG CONTENT START --------------------------------> */
+.services-img-r {
+    background-image: url('../img/background.webp');
+}
+
+.services-detail-r {
+    width: 100%;
+    height: min-content;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 238px;
+}
+
+.services-detail-r::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22 47 93 /.75);
+}
+
+.services-detail-r-card {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7;
+}
+
+.services-contain-r {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+.big-title-r {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #ffff;
+    font-family: 'Exo';
+    text-transform: uppercase;
+}
+
+.small-title-r {
+    display: inline-flex;
+    color: #ffff;
+    text-transform: capitalize;
+}
+
+.small-title-r li {
+    list-style: none;
+}
+
+.small-title-r>li>a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* <!-------------------------------------- IMG CONTENT END -------------------------------------------> */
+
+
+
+/* ---------------------------------------- KARTLAR START ------------------------------------------------ */
+.tıbbi-cart {
+    padding-top: 70px;
+}
+
+.tıbbi-cart {
+    padding-bottom: 40px;
+}
+
+.cart {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tibbibrans-r {
+    background: #ffff;
+    margin: 0px 40px;
+}
+
+.cont-svg {
+    margin: 0;
+    display: inline-block;
+    background: #162f5d;
+    padding: 16px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cart:hover {
+    filter: grayscale(1);
+}
+
+.img-r {
+    position: relative;
+}
+
+.img-bg-r {
+    height: 250px;
+    background-size: cover !important;
+    background-position: center !important;
+    transition: all .5s ease;
+}
+
+.alt-card-r {
+    box-shadow: 0 5px 20px rgba(34, 34, 34, .1);
+    padding: 30px 40px 30px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.blog-title-r .title {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #162f5d;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    margin-top: 15px;
+}
+
+.text-r p {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #868686 !important;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ust-card-r a {
+    text-decoration: none;
+    outline: 0;
+    color: #30b4e5;
+    transition: all .3s ease 0s;
+    background-color: transparent;
+}
+
+/* ----------------------------------------KARTLAR END-------------------------------------------------- */
+
+
+
+/* ------------------------------------ FOOTER START ----------------------------------------------------- */
+.container-fluid.container2 {
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #0F1F40;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 8px solid #0F1F40;
+}
+
+footer ul {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    outline: 0;
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    opacity: .75;
+    transition: all .5s ease;
+}
+
+footer ul li .sitelinkleri {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    opacity: 1;
+    transition: all .5s ease;
+    padding: 5px 0;
+    font-weight: 400;
+    display: inline-block;
+    width: calc(100% - 25px);
+    list-style: none;
+    margin-left: 5px;
+}
+
+footer ul li .iconlink {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer .social-icon i:hover {
+    background-color: #0b1831;
+}
+
+footer ul li a:hover {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+    transform: translate(5px);
+    list-style: none;
+}
+
+.btn-part form input[type="email"] {
+    background: 0 0;
+    border: 1px solid #162f5d;
+    width: 100%;
+    background: #162f5d;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0;
+    color: #fff;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.m-submit {
+    position: absolute;
+    right: 0px;
+    padding: 11px 15px;
+    border: none;
+    background: #12264b;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+.btn-part form {
+    position: relative;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.btn-part form li i {
+    color: #142A54;
+    right: 0;
+    position: relative;
+}
+
+footer .social-icon i {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    border: 2px solid #102040;
+    width: 55px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 5px;
+    display: block;
+    background: #162f5d;
+    text-align: center;
+    line-height: 52px !important;
+}
+
+footer .social-icon li {
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.fbaslik {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+}
+
+.fsub {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.textcolor {
+    color: white;
+}
+
+/* ------------------------------------ FOOTER END ----------------------------------------------------- */
+
+
+
+
+/* ------------------------------------ SUB-FOOTER START ---------------------------------------------- */
+.sub-footer {
+    background: #0b1831;
+    padding: 20px 0;
+}
+
+.sub-footer .copy-right-part p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* ------------------------------------ SUB-FOOTER END -------------------------------------------------*/
+
+@media(max-width: 1400px) {
+    footer .social-icon i {
+        width: 45px;
+    }
+}
+
+@media(max-width: 1200px) {
+    footer .social-icon i {
+        width: 35px;
+    }
+}
+
+@media(max-width: 991px) {
+    footer .social-icon i {
+        width: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    footer .social-icon i {
+        width: 70px;
+    }
+}
+
+@media(max-width: 532px) {
+    footer .social-icon i {
+        width: 65px;
+    }
+}
+
+@media(max-width: 474px) {
+    footer .social-icon i {
+        width: 50px;
+    }
+}
+

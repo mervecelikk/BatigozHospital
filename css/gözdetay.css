@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #494949;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* <!--------------------- IMG CONTENT START --------------------------------> */
+/*--------------------------------------------------- ÜST BAŞLIK---------------------------- */
+
+.ustbaslik {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+}
+
+.ustbaslik:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(22 47 93 / .75);
+}
+
+
+.ustbaslik .m-ustbaslikyazilar {
+    position: relative;
+}
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+div {
+    display: block;
+}
+
+.ustbaslik .m-ustbaslikyazilar .title-part {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 62px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.ustbaslik .m-ustbaslikyazilar .m-ust-title li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ustbaslik .m-ustbaslikyazilar .m-ust-title li {
+    display: inline-block;
+    position: relative;
+    padding-right: 25px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    list-style: none;
+
+}
+
+.ustbaslik .m-ustbaslikyazilar.filtered {
+    padding: 50px 0 90px;
+}
+/*---- ÜST BAŞLIK END----- */
+
+/* <!------------------------------------ IMG CONTENT END -------------------------------------> */
+
+
+
+/* <!------------------------------------- GÖZ IMG CONTENT START --------------------------------> */
+.banner-section-r .banner-img-r {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.banner-section-r .banner-img-r img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* <!--------------------------------------- GÖZ IMG CONTENT END --------------------------------> */
+
+
+
+
+/* <!--------------------- GÖZ SAĞLIĞINDA SUNULAN HİZMETLER START --------------------------------> */
+.hzmt {
+    background-color: #FFFFFF;
+    border-bottom: 1px dashed #DEDDDD;
+    width: 826px;
+    height: 320px;
+    margin-left: -36px;
+    margin-top: -35px;
+}
+
+.hzmt small {
+    font-weight: Exo, Tahoma;
+    font-size: 21px;
+    line-height: 34px;
+    color: #162f5d;
+    margin-left: 30px;
+
+}
+
+.hzmt1 {
+    background-color: #FFFFFF;
+    height: 239px;
+    width: 826px;
+    margin-left: -36px;
+    margin-top: -35px;
+}
+
+.hzmt1 h2 {
+    color: #162f5d;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Exo, Tahoma;
+    line-height: 34px;
+    margin-left: 30px;
+    padding-top: 40px;
+
+}
+
+.hzmt1 p {
+    margin-left: 30px;
+    border-bottom: 1px dashed #DEDDDD;
+}
+
+.doktorr {
+    width: 850px;
+    margin-left: -45px;
+    margin-top: 40px;
+}
+
+.hizmet-r {
+    margin-left: 20px;
+    height: 40px !important;
+}
+
+.hizmetler {
+    height: 196px;
+    width: 730px;
+}
+
+.hizmetler li {
+    border: 1px solid #EFEFEF;
+    font-size: 13px;
+    margin: 0px 5px 5px 0px;
+    padding: 8px 12px 8px 12px;
+    background-color: #F7F7F7;
+    list-style: none;
+    display: inline-block;
+    font-weight: 390;
+    text-align: left;
+    line-height: 26px;
+    list-style-position: outside;
+    border-radius: 5px;
+    font-family: Exo, Tahoma;
+    color: #0c1931;
+}
+
+/* <!--------------------- GÖZ SAĞLIĞINDA SUNULAN HİZMETLER END --------------------------------> */
+
+
+
+
+/* ------------------------------------ KATEGORİ START ------------------------------------------ */
+.dprtmnt-title h3 {
+    font-size: 24px;
+    font-family: Exo, sans-serif;
+    padding-top: 15px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.portfolio-datail {
+    background-color: #f7f7f7;
+    padding: 70px 50px;
+}
+
+.tıp-box {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .05);
+    border-radius: 5px;
+}
+
+.banner-content-r {
+    background: #f7f7f7 !important;
+}
+
+.tıp-box .service-menu-r {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 2;
+}
+
+.tıp-box .service-menu-r .hastalik {
+    background-color: #fff;
+    transition: all .5s ease;
+}
+
+.tıp-box .service-menu-r .hastalik a:hover {
+    color: #fff;
+    background: #10254c;
+    border-bottom: 1px dashed #102040;
+}
+
+.tıp-box .service-menu-r .hastalik a {
+    font-family: Exo, Tahoma;
+    font-size: 15px;
+    line-height: 26px;
+    color: #5f5f5f;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: block;
+    border-bottom: 1px dashed #ececec;
+    text-decoration: none;
+}
+
+.tıp-box .service-menu-r .hastalik .left-r {
+    width: 50px;
+    background: #f7f7f7;
+    padding: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    border-bottom: 1px dashed #e8e8e8;
+    margin-bottom: -1px;
+    transition: all .5s ease;
+    text-align: center;
+    color: #c9c9c9;
+}
+
+.tıp-box .service-menu-r .hastalik:hover .left-r {
+    background-color: #0b1831;
+    border-bottom: 1px dashed #102040;
+}
+
+.tıp-box .service-menu-r .hastalik:hover .left-r svg path {
+    fill: #ffffff;
+}
+
+
+/* ------------------------------------ KATEGORİ END -------------------------------------------- */
+
+
+.call-center-box {
+    background: radial-gradient(#162f5d, #0c1931);
+    overflow: hidden;
+    padding: 30px 0;
+    border-radius: 4px;
+    transition: all .5s ease;
+    text-align: center;
+}
+
+.call-title h2 {
+    font-size: 24px;
+    line-height: 50px;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+.call-title p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.call-center-box:hover h2 {
+    font-size: 20px;
+}
+
+.call-center-box:hover p {
+    font-size: 26px;
+}
+
+.modal {
+    background-color: rgb(22 47 93 /.75);
+}
+
+.modal-box {
+    position: relative;
+    top: 50px;
+    padding-top: 45px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.btn-x {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: #fff;
+    transition: transform 0.5s ease;
+    border: none;
+}
+
+.btn-x:hover {
+    transform: rotate(90deg);
+    background-color: #f7f7f7;
+}
+
+.portfolio-datail {
+    background-color: #f7f7f7;
+    padding: 70px 50px;
+}
+
+.banner-content-r {
+    padding: 35px;
+    background-color: #fff;
+}
+
+.call-title-1 h2 {
+    margin-top: -15px !important;
+}
+
+.call-title-1 h2 {
+    font-size: 24px;
+    line-height: 50px;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+.call-title-1 p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+
+/* ----------------------------------- DOKTORLAR START ----------------------------------------- */
+.part-r {
+    margin-bottom: 95px;
+    position: relative;
+    overflow: visible;
+}
+
+.inner-r img {
+    width: 100%;
+}
+
+img.ms,
+.doctor-img.ms {
+    filter: grayscale(1);
+}
+
+.normal-text.ms {
+    background: #000 !important;
+}
+
+.normal-text {
+    box-shadow: unset;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: #162f5d;
+    bottom: -70px;
+    background: #fff;
+    padding: 20px 10px 20px;
+    box-shadow: 10px 17px 38px 0 rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: #30b4e5;
+    transition: all .3s ease 0s;
+    background-color: transparent;
+}
+
+.person-name {
+    color: #fff;
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 600;
+    color: #162f5d;
+    display: block;
+    text-transform: capitalize;
+    font-family: 'Exo', 'Tahoma';
+}
+
+.team-text {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    max-height: 0;
+    color: #868686;
+    position: relative;
+    transform: scaleY(0);
+    opacity: 0;
+    visibility: visible;
+    transition: all .5s;
+}
+
+.team-text p {
+    margin: 0 0 26px;
+    line-height: 1.8;
+}
+
+.second-doctor-part .item-team-part:hover .normal-text .team-text {
+    max-height: 400px;
+    transform: scaleY(1);
+    opacity: 1;
+    margin-top: 10px;
+    padding: 20px 0 20px;
+    visibility: visible;
+}
+
+.team-text:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: rgb(0 0 0 / .1);
+    top: 0;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    transform: translateX(-50%);
+}
+
+.team-text:after {
+    background: rgb(255 255 255 / 50%) !important;
+}
+
+/* ----------------------------------- DOKTORLAR END -----------------------------------------*/
+
+
+
+/* ------------------------------------ FOOTER START ------------------------------------------*/
+.container-fluid.container2 {
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #0F1F40;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 8px solid #0F1F40;
+}
+
+footer ul {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    outline: 0;
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    opacity: .75;
+    transition: all .5s ease;
+}
+
+footer ul li .sitelinkleri {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    opacity: 1;
+    transition: all .5s ease;
+    padding: 5px 0;
+    font-weight: 400;
+    display: inline-block;
+    width: calc(100% - 25px);
+    list-style: none;
+    margin-left: 5px;
+}
+
+footer ul li .iconlink {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer .social-icon i:hover {
+    background-color: #0b1831;
+}
+
+footer ul li a:hover {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+    transform: translate(5px);
+    list-style: none;
+}
+
+.btn-part form input[type="email"] {
+    background: 0 0;
+    border: 1px solid #162f5d;
+    width: 100%;
+    background: #162f5d;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0;
+    color: #fff;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.m-submit {
+    position: absolute;
+    right: 0px;
+    padding: 11px 15px;
+    border: none;
+    background: #12264b;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+.btn-part form {
+    position: relative;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.btn-part form li i {
+    color: #142A54;
+    right: 0;
+    position: relative;
+}
+
+footer .social-icon i {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    border: 2px solid #102040;
+    width: 55px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 5px;
+    display: block;
+    background: #162f5d;
+    text-align: center;
+    line-height: 52px !important;
+}
+
+footer .social-icon li {
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.fbaslik {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+}
+
+.fsub {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.textcolor {
+    color: white;
+}
+
+/* ------------------------------------ FOOTER END ----------------------------------------------------- */
+
+
+
+
+/* ------------------------------------ SUB-FOOTER START ---------------------------------------------- */
+.sub-footer {
+    background: #0b1831;
+    padding: 20px 0;
+}
+
+.sub-footer .copy-right-part p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* ------------------------------------ SUB-FOOTER END -------------------------------------------------*/
+
+
+/*-------------------------------------- MODAL START -------------------------------------------------*/
+.modal-contact-box {
+    position: relative;
+    z-index: 500;
+    top: 0px;
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.modal-contact-box .modal-content {
+    border: none;
+}
+
+.recaptcha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.modal {
+    background-color: rgb(22 47 93 /.75);
+}
+
+.modal-box {
+    position: relative;
+    top: 50px;
+    padding-top: 45px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.my-modal-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 0;
+}
+
+.my-modal-header h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Exo';
+    color: #162f5d;
+}
+
+.my-modal-header .modal-text {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    color: #868686 !important;
+    font-weight: 400 !important;
+    font-family: Exo, Tahoma !important;
+}
+
+.modal-submit {
+    width: 100%;
+    padding: 10px 50px;
+    background: #162f5d !important;
+    color: #fff;
+    border: 1px solid !important;
+    border-color: #162f5d !important;
+    border-radius: 5px !important;
+}
+
+.modal-form {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 11px 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    background: #f9f9f9;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+}
+
+/*-------------------------------------- MODAL END ---------------------------------------------------*/
+
+@media(max-width: 1400px) {
+
+    footer .social-icon i {
+        width: 45px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    footer .social-icon i {
+        width: 35px;
+    }
+}
+
+@media(max-width: 991px) {
+    .ustbaslik .m-ustbaslikyazilar .title-part {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .ustbaslik .m-ustbaslikyazilar.filtered {
+        padding: 50px 0 50px;
+    }
+
+    footer .social-icon i {
+        width: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .ustbaslik .m-ustbaslikyazilar .title-part {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    footer .social-icon i {
+        width: 70px;
+    }
+}
+
+@media(max-width: 532px) {
+    footer .social-icon i {
+        width: 65px;
+    }
+}
+
+@media(max-width: 507px) {
+    .ustbaslik .m-ustbaslikyazilar .title-part {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+}
+
+@media(max-width: 474px) {
+    footer .social-icon i {
+        width: 50px;
+    }
+}

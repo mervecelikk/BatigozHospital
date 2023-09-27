@@ -1,0 +1,295 @@
+HEADER #randevu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.randevu-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.randevu-header-content a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.randevu-footer {
+    padding: 20px 80px;
+
+}
+
+.randevu-footer P {
+    color: #212529;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+/* main */
+.randevu-main {
+    background-color: rgb(28, 59, 114);
+    width: 100%;
+    padding: 5rem;
+    position: relative;
+}
+
+.timeline {
+    position: relative;
+
+}
+
+.cizgi {
+    width: 8px;
+    height: 450px;
+    background-color: #7b7f89;
+    position: absolute;
+    left: 20px;
+}
+
+.button-div {
+    position: relative;
+    z-index: 20;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% !important;
+    background-color: #FFFFFF;
+    border: 2px solid white !important;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+
+.bg-active {
+    background-color: #35B5E6 !important;
+    color: white !important;
+}
+
+.tab-content {
+    margin-left: 150px;
+}
+
+.hospital-content h2 {
+    margin-bottom: 17px;
+    font-size: 35px;
+    font-weight: 700 bold;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hospital-content p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 24px;
+}
+
+.hospital-office {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.hospital-office button {
+    display: block;
+    width: 100%;
+}
+
+.previous {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #35B5E6;
+    padding: 16px 30px;
+    cursor: pointer;
+
+}
+
+.doctor-id {
+    background-color: #5980AC;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 206px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.sec a {
+    font-size: 1.25rem;
+    line-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.noDate {
+    padding: 16px 16px;
+    background-color: #F8D7DA;
+    color: #842029;
+    width: 352px;
+    height: 58px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #f5c2c7;
+    margin: 20px 0 16px 0;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.td-clock {
+    display: none;
+}
+
+.td-oclock:hover {
+    background-color: white !important;
+
+}
+
+form input[type="date"] {
+    font-size: 20px;
+    width: 352px !important;
+    height: 54px;
+    border-radius: 5px;
+    padding-right: 160px;
+}
+
+.patient-form {
+    width: 450px;
+}
+
+.hospital-office form {
+    margin-bottom: 50px;
+}
+
+.hospital-office form input {
+    width: 427px;
+    height: 54px;
+}
+
+
+.patient-form span,
+.patient-form label {
+    font-size: 16x;
+    line-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+
+@media  (max-width:820px) {
+    .patient-form {
+        padding-right: 40px;
+    }
+
+}
+
+
+
+@media  (max-width:767px) {
+
+    .timeline {
+        position: absolute;
+        margin: auto;
+        left: 45%;
+        top: -180px;
+        transform: rotate(-90deg);
+    }
+
+    .circle {
+        transform: rotate(90deg);
+    }
+
+    .tab-content {
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+
+    .patient-form {
+        padding-right: 40px;
+
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .doctor-id {
+        height: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .randevu-main {
+        padding: 5rem 2rem;
+    }
+
+    .noDate {
+        width: 100%;
+    }
+
+    form input[type="date"] {
+        font-size: 20px;
+        width: 100% !important;
+        height: 54px;
+        border-radius: 5px;
+        padding-right: 0px;
+    }
+
+    .patient-form {
+        width: 400px;
+    }
+}
+
+
+@media (max-width:460px) {
+    .cizgi {
+        height: 250px;
+    }
+
+    .circle {
+        margin-bottom: 3px;
+    }
+
+    .timeline {
+        width: 10px !important;
+        left: 120px;
+        left: 45%;
+        top: -50px;
+    }
+}
+
+
+
+@media  (max-width:412px) {
+    .patient-form {
+        width: 300px;
+    }
+}
